@@ -1,0 +1,29 @@
+.GridDiv{
+width:1200px;
+
+
+display: flex;
+flex-wrap: wrap;
+}
+
+.Grid{
+    width:23%;
+    box-sizing: border-box;
+text-align: center;
+border: 1px solid #ccc;
+border-radius: 8px;
+margin: 12px;
+}
+
+.GridImage{
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.GridHeading{
+padding: 8px;
+font-size: 12px;
+font-weight: 700;
+margin: 0;
+}
